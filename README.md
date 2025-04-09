@@ -1,2 +1,110 @@
 # EHRM-AWS-Security-Project
-AWS hardening for VA EHRM: Terraform, IAM policies, &amp; scripts automate security, detect misconfigs, and perform pen testing to protect patient data.
+
+## 🔐 Mission-Ready: Hardened AWS Security for the VA's Electronic Health Record Modernization (EHRM) Project
+
+**Author:** Diamond Williams  
+**Status:** Work in Progress  
+**Tools Used:** AWS, Terraform, IAM, CloudTrail, CloudWatch, Pacu (AWS Pentesting)  
+**Objective:** Secure an AWS environment, automate security configurations, and conduct vulnerability testing for the U.S. Department of Veterans Affairs (VA).
+
+---
+
+## 🚀 Why I Started This Project
+
+Securing cloud environments is one of today’s most critical and complex challenges — especially for healthcare institutions managing sensitive patient data. With the VA’s EHRM initiative, safeguarding the health records of millions of veterans became more than just a project — it became a mission.
+
+I initiated this hands-on project to:
+- Identify and fix AWS misconfigurations
+- Automate infrastructure with Terraform
+- Implement airtight IAM security
+- Prepare for real-world penetration testing using Pacu
+
+The end goal? To build and validate a secure, compliant AWS environment — one ready for real-world threats and audits.
+
+---
+
+## 🧱 Project Breakdown
+
+### **Phase | Challenges Faced | Current Progress | Next Steps**
+
+---
+
+### ⚙️ **Challenges I Faced (and Solved)**
+
+#### 1. AWS Misconfigurations & Terraform Conflicts  
+**Problem:** Duplicate resources, IAM conflicts, and state drift.  
+**Solutions:**  
+- ✅ Used terraform `state rm` and `terraform import` to correct state issues  
+- ✅ Modularized resources for maintainability  
+- ✅ Refactored policy attachments and role bindings
+
+#### 2. IAM Security Missteps  
+**Problem:** Over-permissive policies = serious risk for privilege escalation  
+**Solutions:**  
+- ✅ Implemented Least Privilege Access  
+- ✅ Used AWS IAM Access Analyzer for policy audits  
+- ✅ Enforced RBAC and explicit deny conditions
+
+#### 3. Logging & Monitoring Gaps  
+**Problem:** CloudTrail wasn’t tracking all API events, and CloudWatch logs were incomplete.  
+**Solutions:**  
+- ✅ Centralized logs in an encrypted S3 bucket  
+- ✅ Set proper retention policies and region-wide trails  
+- ✅ Created CloudWatch alarms for suspicious activity (e.g., failed logins, root usage)
+
+---
+
+## 🧪 What's Next: Penetration Testing & Final Hardening
+
+- 🔜 Final security validation using Pacu (AWS exploitation framework)  
+- 🔜 Simulating common misconfigurations (e.g., privilege escalation paths, leaked credentials)  
+- 🔜 Remediating any vulnerabilities discovered  
+- 🔜 Ensuring compliance with NIST, HIPAA, and federal cloud security benchmarks
+
+---
+
+## 🏥 Why This Project Matters
+
+- ✅ Veterans' data is sacred. This project helps ensure it stays secure.  
+- ✅ Small businesses and startups often misconfigure AWS — my approach can be scaled to help them too.  
+- ✅ Real-world testing (not just theory) makes this project stand out in today's competitive security landscape.
+
+---
+
+## 🔚 Final Thoughts & Call to Action
+
+This is more than just a portfolio piece — it's a living, breathing cloud security blueprint. And I'm just getting started.  
+
+🔥 Follow my journey to the final pentesting results and see how I transform AWS environments into fortified infrastructure.
+
+---
+
+## 📌 Links
+- **GitHub Repo:** [View the Terraform Code, Policies, and Docs](https://github.com/your-username/EHRM-AWS-Security-Project)
+- **LinkedIn:** [Let's connect and talk cloud security or freelance ops](https://www.linkedin.com/in/diamondwilliams/)
+- **Need help hardening your AWS environment?** [Reach out to me](mailto:diamondwilliams1730@gmail.com)
+
+---
+
+## 📊 Project Architecture
+
+![Architecture Diagram](./assets/architecture-diagram.png)  
+_This diagram shows the architecture of the AWS environment and the security measures put in place._
+
+---
+
+## 📸 Screenshots
+
+Here are some key moments in the project:
+
+- **Terraform State Import Fix:**
+
+  ![Terraform Fix](./assets/screenshots/terraform-import-fix.png)
+
+- **IAM Access Analyzer Output:**
+
+  ![IAM Analyzer](./assets/screenshots/iam-analyzer.png)
+
+- **CloudTrail Logs Setup:**
+
+  ![CloudTrail Logs](./assets/screenshots/cloudtrail-event-logs.png)
