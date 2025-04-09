@@ -92,20 +92,3 @@ This is more than just a portfolio piece — it's a living, breathing cloud 
 ![Architecture Diagram](./assets/architecture-diagram.png)  
 _This diagram shows the architecture of the AWS environment and the security measures put in place._
 
----
-
-## 📸 Screenshots
-
-Here are some key moments in the project:
-
-- **Terraform State Import Fix:**
-
-  ![Terraform Fix](./assets/screenshots/terraform-import-fix.png)
-
-- **IAM Access Analyzer Output:**
-
-  ![IAM Analyzer](./assets/screenshots/iam-analyzer.png)
-
-- **CloudTrail Logs Setup:**
-
-  ![CloudTrail Logs](./assets/screenshots/cloudtrail-event-logs.png)
