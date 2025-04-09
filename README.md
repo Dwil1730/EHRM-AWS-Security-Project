@@ -26,6 +26,7 @@ The end goal? To build and validate a secure, compliant AWS environment — 
 ## 🧱 Project Breakdown
 
 ### **Phase | Challenges Faced | Current Progress | Next Steps**
+![image](https://github.com/user-attachments/assets/96c9bc7d-7ba1-4578-b32e-263fe3cb82af)
 
 ---
 
