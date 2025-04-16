@@ -88,7 +88,7 @@ This is more than just a portfolio piece — it's a living, breathing cloud 
 ---
 
 ## 📊 Project Architecture
+![Image 4-16-25 at 10 49 AM](https://github.com/user-attachments/assets/90999767-7196-4900-a9d2-d20c884af35d)
 
-![Architecture Diagram](./assets/architecture-diagram.png)  
-_This diagram shows the architecture of the AWS environment and the security measures put in place._
+
 
