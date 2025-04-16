@@ -81,9 +81,9 @@ This is more than just a portfolio piece — it's a living, breathing cloud 
 ---
 
 ## 📌 Links
-- **GitHub Repo:** [View the Terraform Code, Policies, and Docs](https://github.com/Dwil1730/EHRM-AWS-Security-Project)
-- **LinkedIn:** [Let's connect and talk cloud security or freelance ops](https://www.linkedin.com/in/diamondw1730/)
-- **Need help hardening your AWS environment?** [Reach out to me]( diamondwilliams1730@gmail.com)
+- **GitHub Repo:** (https://github.com/Dwil1730/EHRM-AWS-Security-Project)
+- **LinkedIn:** (https://www.linkedin.com/in/diamondw1730/)
+- **Need help hardening your AWS environment?** ( diamondwilliams1730@gmail.com)
 
 ---
 
